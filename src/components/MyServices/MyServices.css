@@ -1,0 +1,39 @@
+.MyServices .allServices{
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.MyServices .allServices .service{
+    padding: 2em;
+    border: 1px solid white;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.MyServices .allServices .service .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.MyServices .allServices .service .icon svg{
+    font-size: 2em;
+    color: var(--corPrincipal);
+}
+
+.MyServices .allServices .service .icon1 svg:last-of-type{
+    position: absolute;
+    transform: translate(30%, 25%);
+    rotate: -15deg;
+}
+
+.MyServices .allServices .service h2{
+    font-size: 1em;
+}
+
+.MyServices .allServices .service p{
+    color: var(--corBrancoEscuro);
+    margin-top: 0.5em;
+}

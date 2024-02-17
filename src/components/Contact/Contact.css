@@ -1,0 +1,52 @@
+.Contact{
+    padding: 2em 4em;
+    display: flex;
+    gap: 20%;
+    justify-content: space-between;
+
+    background-color: var(--backgroundColor2);
+}
+
+.Contact .contact1 .profile .logo{
+    width: 3em;
+    height: 3em;
+    background-image: url(../../../public/profileImg/logo.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    margin-bottom: 0.2em;
+}
+
+.Contact .contact1 .profile .profileText p{
+    color: rgb(100,100,100);
+}
+
+.Contact .contact1 .email{
+    margin-top: 2em;
+}
+
+.Contact .contact1 .email p{
+    color: rgb(100,100,100);
+    margin-bottom: 0.2em;
+}
+
+.Contact .contact2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Contact .contact2 .contactIcons{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.Contact .contact2 .contactIcons svg{
+    font-size: 2em;
+    color: white;
+}
+
+.Contact .contact2 .contactIcons svg:hover{
+    color: var(--corPrincipal);
+    margin-top: -4px;
+}

@@ -1,0 +1,19 @@
+.SectionTitle{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 2em;
+    padding: 0 2em;
+}
+
+.SectionTitle > h2{
+    text-align: center;
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+
+.SectionTitle > .line{
+    width: 100%;
+    height: 1px;
+    background-color: var(--corPrincipal);
+}

@@ -1,0 +1,74 @@
+.Main{
+    height: 100vh;
+    margin-bottom: 2em;
+}
+
+.Main .mainContainer{
+    display: flex;
+    align-items: center;
+}
+
+.Main .mainContainer .container2{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+.Main .mainContainer .container2 .text h2:first-of-type{
+    font-size: 3em;
+    color: var(--corPrincipal);
+}
+
+.Main .mainContainer .container2 .text h2:last-of-type{
+    font-size: 2em;
+}
+
+.Main .mainContainer .container2 .text p{
+    color: var(--corBrancoEscuro);
+}
+
+.Main .mainContainer .container2 .mainImgs{
+    margin-top: 1.5em;
+    width: 21em;
+    height: 30em;
+
+    position: relative;
+}
+
+.Main .mainContainer .container2 .mainImgs > img{
+    width: 20em;
+    position: absolute;
+    rotate: 7deg;
+
+    transition: 0.3s;
+    border: 1px solid black;
+}
+
+.Main .mainContainer .container2 .mainImgs .mainImg2{
+    z-index: -99;
+    left: 6%;
+    top: 5%;
+}
+
+.Main .mainContainer .container2 .mainImgs:hover > .mainImg1{
+    left: 6%;
+    top: 5%;
+}
+
+.Main .mainContainer .container2 .mainImgs:hover > .mainImg2{
+    z-index: 99;
+    left: 0;
+    top: 0;
+}
+
+.Main .mainContainer .container2 .mainImgs .mainImg3{
+    z-index: -999;
+    left: 10%;
+    top: 8%;
+
+    background-image: none;
+    background-color: white;
+    rotate: 10deg;
+}
+

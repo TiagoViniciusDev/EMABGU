@@ -1,0 +1,23 @@
+.WorkInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f1f1fff;
+    padding: 2em 4em;
+    border-radius: 0.5em;
+}
+
+.WorkInfo .info{
+    text-align: center;
+}
+
+.WorkInfo .info h2{
+    color: var(--corPrincipal);
+    margin-bottom: 0.1em;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.WorkInfo .info p{
+    font-weight: 600;
+}
