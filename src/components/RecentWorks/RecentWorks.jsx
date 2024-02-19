@@ -5,7 +5,7 @@ import SectionTitle from '../SectionTitle/SectionTitle'
 
 function RecentWorks() {
   return (
-    <div className='RecentWorks container2'>
+    <div className='RecentWorks container2' id='projetos'>
         <SectionTitle title="Projetos Recentes" right={true}/>
         <div className='myWorks'>
           <Slider />

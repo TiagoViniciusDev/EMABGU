@@ -5,7 +5,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 
 function Contact() {
   return (
-    <div className='Contact container2'>
+    <div className='Contact container2' id='contato'>
         <div className='contact1'>
           <div className='profile'>
             <div className='logo'></div>

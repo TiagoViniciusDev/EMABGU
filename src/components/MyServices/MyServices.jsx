@@ -7,7 +7,7 @@ import { FaDiceD6 } from "react-icons/fa";
 
 function MyServices() {
   return (
-    <div className='MyServices container2'>
+    <div className='MyServices container2' id='trabalho'>
         <SectionTitle title="Meus Serviços" right={false}/>
         <div className='allServices'>
             <div className='service'>
