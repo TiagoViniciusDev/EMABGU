@@ -34,3 +34,29 @@ a{
   max-width: calc(1440px*0.75);
   margin: 0 auto;
 }
+
+@media screen and (max-width: 968px){
+  body{
+    font-size: 13px;
+  }
+
+  .container2{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  body{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 512px){
+  body{
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 680px){
+    
+}

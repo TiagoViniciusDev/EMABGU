@@ -11,7 +11,7 @@
 .Header .container .logo{
     width: 3em;
     height: 3em;
-    background-image: url('../../../public/profileImg/logo.jpg');
+    background-image: url('/profileImg/logo.jpg');
     background-size: cover;
     border-radius: 100%;
 }

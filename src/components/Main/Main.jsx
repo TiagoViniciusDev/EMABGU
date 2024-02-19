@@ -15,7 +15,7 @@ function Main() {
               <div className='mainImgs'>
                 <img src="projectsImg/project01.jpg" className='mainImg1'/>
                 <img src="projectsImg/project02.jpg" className='mainImg2'/>
-                <img src="projectsImg/project03.jpg" className='mainImg3'/>
+                <img src="projectsImg/project01.jpg" className='mainImg3'/>
               </div>
             </div>
         </div>

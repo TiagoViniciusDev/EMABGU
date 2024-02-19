@@ -22,7 +22,7 @@ function Contact() {
 
         <div className='contact2'>
           <h1>Vamos Conversar</h1>
-          <p>Entre em contato e me fale sobre o seu projeto, darei melhor para entregar um trabalho de qualidade</p>
+          <p>Entre em contato e me fale sobre o seu projeto, darei o melhor para entregar um trabalho de qualidade</p>
           <div className='contactIcons'>
             <a href="https://www.instagram.com/emabgudesign/" target='_blank'><FaInstagram /></a>
             <a href="https://api.whatsapp.com/send?phone=5511961794095&text=Ol%C3%A1" target='_blank'><FaWhatsappSquare /></a>

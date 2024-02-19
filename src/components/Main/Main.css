@@ -1,11 +1,15 @@
 .Main{
+    z-index: 1;
     height: 100vh;
     margin-bottom: 2em;
+    background: linear-gradient(45deg, rgba(12,12,12,1) 40%, rgba(37,135,79,1) 120%, rgba(7,236,103,1) 200%);
 }
 
 .Main .mainContainer{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: auto 0;
 }
 
 .Main .mainContainer .container2{
@@ -72,3 +76,25 @@
     rotate: 10deg;
 }
 
+
+@media screen and (max-width: 968px){
+    .Main{
+        height: auto;
+        padding-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .Main .mainContainer .container2{
+        flex-direction: column-reverse;
+        padding-top: 5em;
+    }
+
+    .Main .mainContainer .container2 .text{
+        text-align: center;
+    }
+
+    .Main .mainContainer .container2 .mainImgs{
+
+    }
+}

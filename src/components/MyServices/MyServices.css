@@ -37,3 +37,15 @@
     color: var(--corBrancoEscuro);
     margin-top: 0.5em;
 }
+
+@media screen and (max-width: 768px){
+    .MyServices .allServices{
+        max-width: 400px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .MyServices .allServices .service{
+        padding: 2em;
+    }
+  }

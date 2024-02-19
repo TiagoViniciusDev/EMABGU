@@ -35,16 +35,22 @@ function Slider() {
                 <img src="projectsImg/project02.jpg" alt="" className='slideImg' data-swiper-autoplay="2000"/>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="projectsImg/project01.jpg" alt="" className='slideImg' data-swiper-autoplay="2000"/>
+                <img src="projectsImg/project03.jpg" alt="" className='slideImg' data-swiper-autoplay="2000"/>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="projectsImg/project02.jpg" alt="" className='slideImg' data-swiper-autoplay="2000"/>
+                <img src="projectsImg/project04.jpg" alt="" className='slideImg' data-swiper-autoplay="2000"/>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="projectsImg/project01.jpg" alt="" className='slideImg' data-swiper-autoplay="2000"/>
+                <img src="projectsImg/project05.jpg" alt="" className='slideImg' data-swiper-autoplay="2000"/>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="projectsImg/project02.jpg" alt="" className='slideImg' data-swiper-autoplay="2000"/>
+                <img src="projectsImg/project06.jpg" alt="" className='slideImg' data-swiper-autoplay="2000"/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="projectsImg/project07.jpg" alt="" className='slideImg' data-swiper-autoplay="2000"/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="projectsImg/project08.jpg" alt="" className='slideImg' data-swiper-autoplay="2000"/>
             </SwiperSlide>
         </Swiper>
     </div>
