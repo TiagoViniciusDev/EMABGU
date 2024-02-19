@@ -59,7 +59,30 @@
 }
 
 @media screen and (max-width: 680px){
+    .Contact{
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Contact .contact1 .profile .logo{
+        width: 6em;
+        height: 6em;
+        margin: 0 auto;
+        margin-bottom: 1.5em;
+    }
+
     .Contact .contact2 h1{
         font-size: 1.6em;
+    }
+
+    .Contact .contact2 .contactIcons{
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+
+    .Contact .contact2 .contactIcons svg{
+        font-size: 4em;
     }
 }
